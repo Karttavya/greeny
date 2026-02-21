@@ -1,4 +1,4 @@
-
+#checked_21.02.2026
 import tkinter as tk
 from tkinter import scrolledtext
 import datetime
@@ -363,4 +363,5 @@ result_text = scrolledtext.ScrolledText(result_frame, height=10, font=("Consolas
 result_text.pack(fill=tk.BOTH, expand=True)
 
 root.configure(bg="#f7f7f7")
+
 root.mainloop()
