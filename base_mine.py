@@ -1,6 +1,38 @@
 import tkinter as tk
 import string
-
+'''
+letter_map = {
+    "A": [" XXX ", "X   X", "X   X", "XXXXX", "X   X", "X   X", "X   X"],
+    "B": ["XXXX ", "X   X", "X   X", "XXXX ", "X   X", "X   X", "XXXX "],
+    "C": [" XXX ", "X   X", "X    ", "X    ", "X    ", "X   X", " XXX "],
+    "D": ["XXXX ", "X   X", "X   X", "X   X", "X   X", "X   X", "XXXX "],
+    "E": ["XXXXX", "X    ", "X    ", "XXXX ", "X    ", "X    ", "XXXXX"],
+    "F": ["XXXXX", "X    ", "X    ", "XXXX ", "X    ", "X    ", "X    "],
+    "G": [" XXX ", "X   X", "X    ", "X XXX", "X   X", "X   X", " XXX "],
+    "H": ["X   X", "X   X", "X   X", "XXXXX", "X   X", "X   X", "X   X"],
+    "I": ["XXXXX", "  X  ", "  X  ", "  X  ", "  X  ", "  X  ", "XXXXX"],
+    #"I": ["XXX", " X ", " X ", " X ", " X ", " X ", "XXX"],
+    "J": ["  XXX", "   X ", "   X ", "   X ", "   X ", "X  X ", " XX  "],
+    "K": ["X   X", "X  X ", "X X  ", "XX   ", "X X  ", "X  X ", "X   X"],
+    "L": ["X    ", "X    ", "X    ", "X    ", "X    ", "X    ", "XXXXX"],
+    "M": ["X   X", "XX XX", "X X X", "X   X", "X   X", "X   X", "X   X"],
+    "N": ["X   X", "X   X", "XX  X", "X X X", "X  XX", "X   X", "X   X"],
+    "O": [" XXX ", "X   X", "X   X", "X   X", "X   X", "X   X", " XXX "],
+    "P": ["XXXX ", "X   X", "X   X", "XXXX ", "X    ", "X    ", "X    "],
+    "Q": [" XXX ", "X   X", "X   X", "X   X", "X X X", "X  X ", " XX X"],
+    "R": ["XXXX ", "X   X", "X   X", "XXXX ", "X X  ", "X  X ", "X   X"],
+    "S": [" XXX ", "X   X", "X    ", " XXX ", "    X", "X   X", " XXX "],
+    "T": ["XXXXX", "  X  ", "  X  ", "  X  ", "  X  ", "  X  ", "  X  "],
+    "U": ["X   X", "X   X", "X   X", "X   X", "X   X", "X   X", " XXX "],
+    "V": ["X   X", "X   X", "X   X", "X   X", "X   X", " X X ", "  X  "],
+    "W": ["X   X", "X   X", "X   X", "X   X", "X X X", "XX XX", "X   X"],
+    "X": ["X   X", "X   X", " X X ", "  X  ", " X X ", "X   X", "X   X"],
+    "Y": ["X   X", "X   X", " X X ", "  X  ", "  X  ", "  X  ", "  X  "],
+    "Z": ["XXXXX", "    X", "   X ", "  X  ", " X   ", "X    ", "XXXXX"],
+    " ": ["  ", "  ", "  ", "  ", "  ", "  ", "  "]
+    #" ": ["     ", "     ", "     ", "     ", "     ", "     ", "     "]
+}
+'''
 letter_map = {
     "A": [
         " XXX ",
@@ -325,3 +357,4 @@ stats_label.pack(pady=(5, 20))
 
 root.configure(bg="#f7f7f7")
 root.mainloop()
+
